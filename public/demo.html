@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+
+    <title>Demo-WebRTC Screen Sharing</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="page-header">
+                    <h1><strong>[DEMO]</strong></h1>
+                </div>
+                <div class="alert alert-dismissible alert-success">
+                        <button type="button" class="close" data-dismiss="alert">x</button>
+                        <strong>Don't forget!</strong>Download and <a href="/help" class="alert-link">install</a> the extensions for
+                        <a href="/lib/extensions/firefox-extension-sample/snf-647197-screenshare.xpi" class="alert-link">Firefox</a> and
+                        <a href="/lib/extensions/chrome-extension-sample/chrome-extension-sample.zip" class="alert-link">Chrome</a>.
+                    </div>
+                <div class="panel panel-primary">
+                    <div class="panel-title">
+                        <button id="screenShareButton" class="btn btn-primary">screen share
+                        </button>
+                    </div>
+                    <div class="panel-body">
+                        <div id="localScreenContainer" class="embed-responsive embed-responsive-16by9"></div>
+                        <div id="remotesVideos" class="embed-responsive embed-responsive-16by9"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=""><video id="localVideo"></video>
+    </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="lib/simplewebrtc.bundle.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+    "isDev": true,
+    "logLevel": 1,
+    "server": {
+        "port": 443,
+        "secure": true,
+        "key": "45946636_snf-647197.vm.okeanos.grnet.gr.key",
+        "cert": "45946636_snf-647197.vm.okeanos.grnet.gr.cert",
+        "password": null
+    },
+    "rooms": {
+      "maxClients": 0
+    },
+    "stunservers" : [
+        {"url": "stun:stun.l.google.com:19302"}
+    ],
+    "turnservers" : [
+        /*
+        { "url": "turn:your.turn.server.here",
+          "secret": "turnserversharedsecret"
+          "expiry": 86400 }
+          */
+          {
+            "url": "turn:numb.viagenie.ca",
+            "secret": "ledogeisstronk",
+            "expiry": 86400
+          }
+    ]
+}
