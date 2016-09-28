@@ -1,0 +1,6 @@
+{
+  "name": "Webrtcscreensharing",
+  "tagline": "A Node.js, Socket.io project using WebRTC to allow peer-to-peer screen-sharing. ",
+  "body": "### Welcome to WebRTC Screen Sharing\r\nThis project was developed as a university project for Multimedia Technology.\r\nIt was created as a presentation and contains a working demo.\r\n\r\n## Technologies used\r\n- Node.js\r\n- Socket.io\r\n- WebRTC\r\n\r\n## Why use WebRTC\r\nSay you want to screen share with someone who is on the same building as you but on a different floor.\r\nWebRTC establishes peer-to-peer communication, meaning that your computer is gonna send packages only to the computer\r\nthat you are trying to share. Data is gonna travel to the first node of the internet and then back making the communication extremely efficient.\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
